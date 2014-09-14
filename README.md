@@ -1,0 +1,52 @@
+<pre>
+
+multibooker/
+	application/
+		sources/
+			application/
+				modules/
+					addresses/
+						controllers/
+							addresses.find.controller.coffee
+							addresses.create.controller.coffee
+							addresses.read.controller.coffee
+							addresses.update.controller.coffee
+							addresses.delete.controller.coffee
+				templates/
+					501.template.jade
+					404.template.jade
+				application.coffee
+				configuration.coffee
+			public/
+				assets/
+					images/
+					fonts/
+				application/
+					modules/
+						addresses/
+							controllers/
+								addresses.collection.controller.coffee
+								addresses.document.controller.coffee
+								addresses.create.controller.coffee
+							templates/
+								addresses.collection.template.jade
+								addresses.document.template.jade
+								addresses.create.template.cjade
+							services/
+								addresses.service.coffee
+							addresses.module.coffee
+							addresses.states.coffee
+							addresses.styles.styl
+					application.config.coffee
+					application.constants.coffee
+					application.module.coffee
+					application.states.coffee
+					application.styles.styl
+					requirejs.config.coffee
+				index.jade
+		distribution/
+			development/
+			production/
+	documentation/
+
+</pre>
